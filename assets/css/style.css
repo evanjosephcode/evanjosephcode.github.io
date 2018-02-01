@@ -71,7 +71,6 @@ footer {
 
 .about {
 	clear: both;
-	overflow: auto;
 	background-color: white;
 	color: #777777;
 	width: 650px;
@@ -157,7 +156,6 @@ button {
 
 .contact {
 	clear: both;
-	overflow: auto;
 	background-color: white;
 	color: #777777;
 	width: 650px;
@@ -173,7 +171,6 @@ button {
 
 .projects {
 	clear: both;
-	overflow: auto;
 	background-color: white;
 	color: #777777;
 	width: 650px;
