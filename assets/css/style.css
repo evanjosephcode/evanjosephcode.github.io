@@ -1,3 +1,11 @@
+/* just some remaining questions I have 
+   on portfolio portion, why is my iPod caption need a 'bottom: 7px 'and on others like 
+   imac/iphone/newton pic caption is it bottom 10px to be aligned? also, how to fix 
+   the input for message (under contact section) for it to not be in the center as
+    starting point for where cursor is,
+
+   Thanks */
+
 body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	width: 960px;
