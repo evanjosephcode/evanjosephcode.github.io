@@ -1,68 +1,86 @@
 <!DOCTYPE HTML>
-<html lang="en-us">
+<html lang="en-US">
 
 <head>
-<meta charset="UTF-8">
-<title>Evan Seaman Coding Portfolio - Contact</title>
-<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta charset="UTF-8">
+	<Title>Bootstrap-Portfolio Contact</Title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-<section class="headeraesthetic">
-	<header>
-		<h1>Evan Seaman</h1>
-	</header>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"><p class="name">Evan Seaman</p></a>
+      </div>
+        <ul class="nav navbar-nav navbar-right text-center">
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+  </nav>
 
-	<nav>
-		<ul>
-			<li><a href="index.html">About</a></li>
-			<li><a href="portfolio.html">Portfolio</a></li> 
-			<li><a href="#">Contact</a></li>
-		</ul>
-	</nav>
-</section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-8">
+        <div class="page-header">
+          <h2>Contact</h2>
+        </div>
+        <div class="row">
+          <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Name</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="John Smith">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Email</label>
+                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="example@gmail.com">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Message</label>
+                <textarea class="form-control" id="message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+          <div class="col-xs-1 col-sm-1 col-md-1">
+          </div>
+        </div>
+      </div>
+        
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Connect with Me</h3>
+          </div>
+          <div class="row">
+            <div class="panel-body">
+              <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+                <img src="assets/images/github.jpg" alt="Github" class="img-thumbnail">
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+                <img src="assets/images/linkedin.jpg" alt="Linkedin" class="img-thumbnail">
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+                <img src="assets/images/stack.jpg" alt="Stack Overflow" class="img-thumbnail">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
 
+  <div class="footer navbar-fixed-bottom">
+    &copy; Copyright 2018 Evan Seaman
+  </div>
 
-<section class="contact">
-	<h2>Contact</h2>
-	<hr>
-	<br>
-	<form>
-	  <div class="nameinput">
-	    <label>Name</label>
-	    <br>
-	    <input placeholder="John Smith">
-	  </div>
-	  <div class="emailinput" />
-	    <label>Email</label>
-	    <br>
-	    <input placeholder="example@gmail.com" />
-	  </div>
-	  <div class="contentinput" />
-	  	<label>Message</label>
-	  	<br>
-	    <input class="message">
-	  </div>
-	  <button type="submit" class="btn btn-primary">Submit</button>
-	</form>
-</section>
-
-<section class="connect">
-	<h3>Connect with Me</h3>
-	<hr>
-	<br>
-	<div class="connectimages">
-		<img src="assets/images/github.jpg" class="github" alt="Github" />
-		<img src="assets/images/linkedin.jpg" alt="Linkedin" />
-		<img src="assets/images/stack.jpg" alt="Stackoverflow" />
-	</div>
-</section>
-
-<footer>
-		&copy; Copyright 2018 Evan Seaman
-</footer> 
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="assets/javascript/javascript.js"></script>
 
 </body>
-</html> 
+</html>

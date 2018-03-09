@@ -1,66 +1,107 @@
 <!DOCTYPE HTML>
-<html lang="en-us">
+<html lang="en-US">
 
 <head>
-<meta charset="UTF-8">
-<title>Evan Seaman Coding Portfolio - Projects</title>
-<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <Title>Bootstrap-Portfolio</Title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-<section class="headeraesthetic">
-	<header>
-		<h1>Evan Seaman</h1>
-	</header>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand text-" href="#">
+          <p class="name">Evan Seaman</p>
+        </a>
+      </div>
+      <ul class="nav navbar-nav navbar-right text-center">
+        <li>
+          <a href="index.html">About</a>
+        </li>
+        <li>
+          <a href="#">Portfolio</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+    </div>
+    </div>
+  </nav>
 
-	<nav>
-		<ul>
-			<li><a href="index.html">About</a></li>
-			<li><a href="#">Portfolio</a></li> 
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</nav>
-</section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-8">
+        <div class="page-header">
+          <h2>Portfolio</h2>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 pic">
+            <img src="assets/images/1.jpg" alt="iPhone" class="img-thumbnail img-fluid">
+            <div class="carousel-caption">
+              iPhone
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 pic">
+            <img src="assets/images/2.jpg" alt="iMac" class="img-thumbnail img-fluid imac">
+            <div class="carousel-caption">
+              iMac
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 pic">
+            <img src="assets/images/3.jpg" alt="iPod" class="img-thumbnail img-fluid nano">
+            <div class="carousel-caption">
+              iPod
+            </div>
+          </div>
 
+          <div class="col-xs-12 col-sm-12 col-md-6 newton pic">
+            <img src="assets/images/4.jpg" alt="Newton" class="img-thumbnail img-fluid">
+            <div class="carousel-caption">
+              Newton
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4">
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4">
+          </div>
+        </div>
+      </div>
 
-<section class="projects">
-	<h2>Portfolio</h2>
-	<hr>
-	<br>
-	<section class="iphone">
-		<img src="assets/images/1.jpg" class="iphonepic" alt="Evan's Project1" />
-		<p class="iphonetext">iPhone</p>
-	</section>	
-	<section class="imac">
-		<img src="assets/images/2.jpg" class="imacpic" alt="Evan's Project2" />
-		<p class="imactext">iMac</p>
-	</section>	
-	<section class="ipod">
-		<img src="assets/images/3.jpg" class="ipodpic" alt="Evan's Project3" />
-		<p class="ipodtext">iPod</p>
-	</section>	
-	<section class="newton">
-		<img src="assets/images/4.jpg" class="newtonpic" alt="Evan's Project4" />
-		<p class="newtontext">Newton</p>
-	</section>	
-</section>
+      <div class="row connect">
+        <div class="col-xs-12 col-sm-12 col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Connect with Me</h3>
+            </div>
+            <div class="row">
+              <div class="panel-body">
+                <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+                  <img src="assets/images/github.jpg" alt="Github" class="img-thumbnail github">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+                  <img src="assets/images/linkedin.jpg" alt="Linkedin" class="img-thumbnail text-center">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+                  <img src="assets/images/stack.jpg" alt="Stack Overflow" class="img-thumbnail text-center">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<section class="connect">
-	<h3>Connect with Me</h3>
-	<hr>
-	<br>
-	<div class="connectimages">
-		<img src="assets/images/github.jpg" class="github" alt="Github" />
-		<img src="assets/images/linkedin.jpg" alt="Linkedin" />
-		<img src="assets/images/stack.jpg" alt="Stackoverflow" />
-	</div>
-</section>
+    <div class="footer navbar-fixed-bottom col-xs-12 col-sm-12">
+      &copy; Copyright 2018 Evan Seaman
+    </div>
 
-<footer>
-		&copy; Copyright 2018 Evan Seaman
-</footer> 
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="assets/javascript/javascript.js"></script>
+
 
 </body>
-</html> 
+</html>

@@ -1,58 +1,89 @@
 <!DOCTYPE HTML>
-<html lang="en-us">
+<html lang="en-US">
 
 <head>
-<meta charset="UTF-8">
-<title>Evan Seaman Coding Portfolio</title>
-<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <Title>Bootstrap-Portfolio</Title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          <p class="name">Evan Seaman</p>
+        </a>
+      </div>
+      <ul class="nav navbar-nav navbar-right text-center">
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="portfolio.html">Portfolio</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-<section class="headeraesthetic">
-	<header>
-		<h1>Evan Seaman</h1>
-	</header>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-8">
+        <div class="page-header">
+          <h2>About Me</h2>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-3 text-center evan">
+            <img src="assets/images/evan.jpeg" alt="Evan Seaman" class="img-thumbnail">
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-9">
+            <p class="bodycontents">
+              Hey to whomever is on my coding portfolio page, you've made it to the right place!
+              <br>
+              <br> I'm Evan, I'm originally from the northeast-- Maryland specifically, went to college for business and got
+              a degree in economics and marketing in the southeast-- at University of Miami, and have held numerous IT related
+              positions for the past several years in Austin including consulting, sales/support, and administration roles,
+              and have decided to dive head first into the wonderful world of coding.
+              <br>
+              <br> Also, I like bike riding, going to shows, dogs, and videogames.</p>
+          </div>
+        </div>
+      </div>
 
-	<nav>
-		<ul>
-			<li><a href="#">About</a></li>
-			<li><a href="portfolio.html">Portfolio</a></li> 
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</nav>
-</section>
 
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Connect with Me </h3>
+          </div>
+          <div class="row">
+            <div class="panel-body">
+              <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+                <img src="assets/images/github.jpg" alt="Github" class="img-thumbnail">
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+                <img src="assets/images/linkedin.jpg" alt="Linkedin" class="img-thumbnail">
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+                <img src="assets/images/stack.jpg" alt="Stack Overflow" class="img-thumbnail">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<section class="about">
-	<h2>About Me</h2>
-	<hr>
-	<br>
-	<img src="assets/images/evan.jpeg" alt="Evan Seaman" align="left" class="evan" />
-	<div class="content">
-		<p> Hey to whomever is on my coding portfolio page, you've made it to the right place!</p>
-		<br>
-		<p> I'm Evan, I'm originally from the northeast-- Maryland specifically, went to college for business and got a degree in economics and marketing in the southeast-- at University of Miami, and have held numerous IT related positions for the past several years in Austin including consulting, sales/support, and administration roles, and have decided to dive head first into the wonderful world of coding. </p>
-		<br>
-		<p>Also, I like bike riding, going to shows, dogs, and videogames. </p>
-	</div>
-</section>
+  <div class="footer navbar-fixed-bottom">
+    &copy; Copyright 2018 Evan Seaman
+  </div>
 
-<section class="connect">
-	<h3>Connect with Me</h3>
-	<hr>
-	<br>
-	<div class="connectimages">
-		<img src="assets/images/github.jpg" class="github" alt="Github" />
-		<img src="assets/images/linkedin.jpg" alt="Linkedin" />
-		<img src="assets/images/stack.jpg" alt="Stackoverflow" />
-	</div>
-</section>
-
-<footer>
-		&copy; Copyright 2018 Evan Seaman
-</footer> 
-
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="assets/javascript/javascript.js"></script>
 </body>
-</html> 
+
+</html>
