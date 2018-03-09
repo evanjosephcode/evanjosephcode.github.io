@@ -1,6 +1,7 @@
 .navbar-brand {
     font-size: 35px;
-    background-color: #4aaaa5;
+    /* background-color: #4aaaa5; */
+    background-color:  rgb(10, 126, 204);
     font-family: 'Georgia', 'Times', 'Times New Roman', serif;
 
   }
@@ -56,6 +57,7 @@
     font-family: 'Verdana', sans-serif;
     line-height: 24px;
     font-size: 16px;
+    color: white;
   }
 
   .panel-title {
@@ -75,14 +77,13 @@
 
   /*added from portfolio html css*/
   .newton {
-    margin-top: 20px;
     margin-bottom: 20px;
   }
 
 
   .carousel-caption {
     position: absolute;
-    background-color: #4aaaa5;
+    background-color: rgb(42, 200, 221);
     padding-top: 2px;
     padding-bottom: 2px;
     left: 75px;
@@ -93,15 +94,38 @@
     color: #4aaaa5;
   }
 
-  .nano {
-    margin-top: 20px;
-  }
-
   .img-fluid {
     margin-left: 60px;
+    margin-top: 20px;
+    border: 5px solid rgb(42, 200, 221);
+    padding: 0px 0px 0px 0px;
   }
 
+  .aboutme, .portfolio {
+    background-color: rgb(10, 126, 204);
+  }
 
+  .contactform {
+    background-color: black;
+  }
+
+  label {
+    color: white;
+  }
+
+  h2 {
+    color: rgb(42, 200, 221);
+  }
+
+  .contactheader {
+    color: white;
+  }
+
+  div.panel.panel-default {
+    background-color: black;
+  }
+
+  /*media queries */
    @media (max-width: 991px){
     .panel.panel-default {
       margin-top: 20px;
@@ -109,10 +133,6 @@
     }
 
     /*from portfolio media query*/
-
-    .imac {
-      margin-top: 20px;
-    }
 
     .pic {
       margin-left: 190px;
