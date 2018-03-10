@@ -7,8 +7,9 @@
   }
 
   .name {
-    font-weight: bold;
     color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: 40px;
   }
 
   h2 {
@@ -138,6 +139,10 @@
 
     .pic {
       margin-left: 190px;
+    }
+
+    .connect {
+      margin-top: 20px;
     }
   }
 
